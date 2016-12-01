@@ -1,0 +1,10 @@
+:host{
+  display: flex;
+  border-bottom: 1px black solid;
+}
+
+.input-field input {
+  box-shadow: none;
+  border: 0;
+  padding: 10px;
+}

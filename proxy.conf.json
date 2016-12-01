@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "http://aac-vm.universe.dart.spb:8080",
+    "secure": false
+  }
+}

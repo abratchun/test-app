@@ -1,9 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-
 import { AppComponent } from './app.component';
+import { TabsModule } from './components/tabs/tabs.module';
+import { TeamsModule } from './components/teams/teams.module';
 
 @NgModule({
   declarations: [
@@ -11,8 +10,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    HttpModule
+    TabsModule,
+    TeamsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
